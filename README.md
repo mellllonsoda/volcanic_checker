@@ -13,7 +13,7 @@ pip install volcanic-checker
 ## Usage
 
 ```python
-import Volcanic-checker
+import volcanic-checker
 
 alert = checker.get_alert_level_by_name("富士山")
 
