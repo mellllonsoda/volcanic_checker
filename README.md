@@ -15,7 +15,6 @@ pip install volcanic-checker
 ```python
 import Volcanic-checker
 
-checker = VolcanoAlertChecker()
 alert = checker.get_alert_level_by_name("富士山")
 
 print(f"Volcano: {alert.name}")
