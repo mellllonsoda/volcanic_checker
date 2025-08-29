@@ -7,13 +7,13 @@ Volcanic Checker is a Python library to fetch and handle volcanic activity alert
 You can install the library via pip:
 
 ```bash
-pip install volcanic-checker
+pip install volcanic_checker
 ```
 
 ## Usage
 
 ```python
-import volcanic-checker
+import volcanic_checker 
 
 alert = checker.get_alert_level_by_name("富士山")
 
