@@ -7,7 +7,7 @@ Volcanic Checker is a Python library to fetch and handle volcanic activity alert
 You can install the library via pip:
 
 ```bash
-pip install volcanic_checker
+pip install volcanic-checker
 ```
 
 ## Usage
