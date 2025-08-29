@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="volcanic_checker",
-    version="0.1.1",
+    name="volcanic_checker",  # パッケージ名をアンダースコアに変更
+    version="0.1.2",
     description="Fetch and handle volcanic activity alerts from JMA",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
@@ -11,7 +11,7 @@ setup(
     author_email="ymellllonsoda0419@gmail.com",
     license="MIT",
     packages=find_packages(),
-    include_package_data=True,  # package_data を使う場合
+    include_package_data=True,
     package_data={
         "volcanic_checker": ["volcanolist.json"]
     },
@@ -27,7 +27,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "volcanic-checker=volcanic_checker.main:main",
+            "volcanic-checker=volcanic_checker.main:main",  # CLIエントリポイント
         ],
     },
 )

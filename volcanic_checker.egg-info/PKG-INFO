@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: volcanic_checker
-Version: 0.1.1
+Version: 0.1.2
 Summary: Fetch and handle volcanic activity alerts from JMA
 Home-page: https://github.com/mellllonsoda/volcanic_checker
 Author: mellllonsoda
@@ -41,7 +41,7 @@ pip install volcanic-checker
 ## Usage
 
 ```python
-import volcanic-checker
+import volcanic_checker as checker
 
 alert = checker.get_alert_level_by_name("富士山")
 
